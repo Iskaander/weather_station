@@ -60,23 +60,23 @@ This is the CSV header:
 
 Field Descriptions:
 
-Log_Index: For-loop cycle count.
-CPU_TempC: Temperature of the Teensy core in °C.
-BMP_TempC: Temperature from the BMP585 sensor in °C.
-BMP_PressPa: Pressure from the BMP585 sensor in Pascals (Pa).
-CO2_ppm: CO2 concentration in ppm from the SCD30 sensor.
-SCD30_TempC: Temperature from the SCD30 sensor in °C.
-SCD30_Hum_%: Humidity from the SCD30 sensor in %.
-SHT_TempC: Temperature from the SHT85 sensor in °C (most precise air temperature).
-SHT_Hum_%: Humidity from the SHT85 sensor in % (most precise air humidity).
-GPS_Lat, GPS_Lon: Coordinates in decimal degrees.
-GPS_Alt_m: Altitude above sea level in meters.
-GPS_Year, GPS_Month, GPS_Day, GPS_Hour, GPS_Min, GPS_Sec: Time from GPS.
-GPS_MilliSec: Milliseconds from GPS (currently always 0).
-GPS_Fix: 1 if GPS has a fix, 0 otherwise.
-BMP_Health: 1 if BMP585 is healthy, 0 otherwise.
-SCD30_Health: 1 if SCD30 is healthy, 0 otherwise.
-SHT_Health: 1 if SHT85 is healthy, 0 otherwise.
+- **Log_Index**: For-loop cycle count.
+- **CPU_TempC**: Temperature of the Teensy core in °C.
+- **BMP_TempC**: Temperature from the BMP585 sensor in °C.
+- **BMP_PressPa**: Pressure from the BMP585 sensor in Pascals (Pa).
+- **CO2_ppm**: CO2 concentration in ppm from the SCD30 sensor.
+- **SCD30_TempC**: Temperature from the SCD30 sensor in °C.
+- **SCD30_Hum_%**: Humidity from the SCD30 sensor in %.
+- **SHT_TempC**: Temperature from the SHT85 sensor in °C (most precise air temperature).
+- **SHT_Hum_%**: Humidity from the SHT85 sensor in % (most precise air humidity).
+- **GPS_Lat**, **GPS_Lon**: Coordinates in decimal degrees.
+- **GPS_Alt_m**: Altitude above sea level in meters.
+- **GPS_Year**, **GPS_Month**, **GPS_Day**, **GPS_Hour**, **GPS_Min**, **GPS_Sec**: Time from GPS.
+- **GPS_MilliSec**: Milliseconds from GPS (currently always 0).
+- **GPS_Fix**: 1 if GPS has a fix, 0 otherwise.
+- **BMP_Health**: 1 if BMP585 is healthy, 0 otherwise.
+- **SCD30_Health**: 1 if SCD30 is healthy, 0 otherwise.
+- **SHT_Health**: 1 if SHT85 is healthy, 0 otherwise.
 
 ## Future tasks
 
