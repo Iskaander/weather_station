@@ -1,0 +1,1 @@
+1. Set teensy CPU clock speed to 150 MHz in Arduino IDE "Tools" section.
