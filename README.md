@@ -7,9 +7,11 @@ A little weather station I built to go with my spectrometers.
 
 This is a project for a small, reasonably cheap weather station. The main idea was to have something to measure atmospheric conditions (especially pressure and temperature) when running laser spectrometers. Those readings are complimentary to the measurements of greenhouse gases. But I thought it would be also nice to track humidity and CO2 levels.
 
-I often do measurements in different places, so I included a GPS receiver. This gives me location, altitude, and time, which I can then use to blend my data with weather models like ERA5.
+I sometimes do the measurements in different places, so I included a GPS receiver. This gives me location, altitude, and time, which I can then use to blend my data with weather models like ERA5.
 
 There are probably off-the-shelf weather stations, but I wanted a specific set of sensors, aiming for good precision for each measurement.
+UPD: This is a standard P/T/H station for EU measurements with COCCON: PCE-THB 40 for 300 eur
+https://www.pce-instruments.com/deutsch/messtechnik/messgeraete-fuer-alle-parameter/temperatur-datenlogger-temperaturlogger-pce-instruments-temperatur-datenlogger-pce-thb-40-det_3711876.htm
 
 ## What's Inside & Cost
 
