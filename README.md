@@ -80,12 +80,25 @@ Field Descriptions:
 - **SCD30_Health**: 1 if SCD30 is healthy, 0 otherwise.
 - **SHT_Health**: 1 if SHT85 is healthy, 0 otherwise.
 
+## Some results
+
+Here are measurements for the weekend
+
+![2 day measurements](docs/plot1_time_series_aggregated.png)
+*(Measurements during 2 days in the shade in the city)*
+
+And here is a comparison between different sensors
+
+![Comparison](docs/plot2_sensor_comparisons.png)
+*(cross-comparison between sensors on the weather station)*
+
 ## Future tasks
 
 1. Write visualisation from csv in Python
 2. Write visualisation in real time in LabView
 3. Write SD reading directly from Arduino
 4. Fix GPS_MilliSec always = 0
+5. Add MTP support to copy files from SD card directly
 
 ## Licensing
 
